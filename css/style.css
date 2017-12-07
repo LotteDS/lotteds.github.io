@@ -40,5 +40,18 @@ p {
     margin-top: 10px; 
 }
 .header {
-    height: 300px; 
+    background-color: tomato;
+    height: 400px; 
+}
+.taco {
+    margin: 0;
+    padding: 10px; 
+    width: 100%;
+    height: auto; 
+}
+.werknemer1 {
+    width: 100%;  
+    height: auto; 
+    padding: 0;
+    margin: 0;
 }
