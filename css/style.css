@@ -1,84 +1,185 @@
-.col-sm-12 {
-    width: 100%;
-    height: 300px; 
-}
-.col-sm-6 {
-    width: 100%;
-    height: 200px; 
-}
-.col-6 {
-    width: 100%;
-    height: 200px; 
-}
-.footer {
-    width: 100%;
-    height: 50px;
-} 
 h1 {
     font-family: 'Montserrat-bold', sans-serif;
     margin-left: 20px;
-    margin-top: 30px; 
-    font-size: 20px; 
+    margin-top: 30px;
+    font-size: 30px;
 }
+
 h2 {
     font-family: 'Montserrat-bold', sans-serif;
     margin-left: 20px;
-    margin-top: 30px; 
-    font-size: 15px; 
+    margin-top: 30px;
+    font-size: 20px;
 }
+
 h3 {
-    font-family: 'Karla-bold', sans-serif; 
+    font-family: 'Karla-bold', sans-serif;
     margin-left: 20px;
     font-size: 18px;
 }
+
 body {
-    font-family: 'Karla', sans-serif;  
+    font-family: 'Karla', sans-serif;
 }
+
 .btn {
     font-family: 'Karla', sans-serif;
     font-size: 15px;
     margin-left: 20px;
-    margin-top: 10px; 
+    margin-top: 10px;
     background-color: darkred;
-    border: none; 
+    border: none;
 }
+
 p {
     margin-left: 20px;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
-.header {
-    background-color: tomato;
-    height: 400px; 
 }
 .taco {
     margin: 0;
-    padding: 10px; 
+    padding: 10px;
     width: 100%;
-    height: auto; 
+    height: 200px;
 }
 .werknemer1 {
-    width: 100%;  
-    height: auto; 
+    width: 100%;
+    height: auto;
     padding: 0;
     margin: 0;
 }
-.filmpje {
-    height: 200px;
-    margin-left: 20px; 
-    width: 310px; 
+.taco-left {
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
-.taco {
-    height: 300px;
-    margin-left: 20px; 
-    width: 300px; 
+.taco-right {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
-
 .form-control {
     font-family: 'Karla', sans-serif;
-    font-size: 12px; 
-    margin: 10px;
+    font-size: 12px;
+    margin-left: 30px;
+    width: 350px; 
+    margin-bottom: 15px; 
+
 }
 p {
-    margin: 20px; 
+    margin: 20px;
 }
-
+.hero {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.col-sm-12 {
+    margin: 0;
+    padding: 0;
+}
+.btn {
+    background-color: #C24040;
+    margin-right: 20px; 
+}
+.hr {
+    width: 40px;
+    height: 3px;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: #e6ad2a;
+}
+.footer {
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 20px;
+    height: 50px;
+    background-color: #C24040;
+    color: white;
+    font-size: 10px;
+}
+.navbar-brand {
+    font-family: 'Montserrat-bold', sans-serif;
+}
+.film {
+    margin: 20px;
+}
+.film-tekst {
+    padding-left: 20px;
+}
+.persoon {
+    width: 100%;
+    margin: 20px;  
+    padding-bottom: 10px; 
+    padding-right: 20px;
+}
+.icon-phone {
+    width: 20px;
+    margin-right: 10px; 
+}
+.icon-mail {
+    width: 20px;
+    margin-right: 10px; 
+}
+.icon-facebook {
+    width: 20px;
+    margin-right: 10px; 
+}
+.team {
+    color:#618e89;
+}
+.icon-phone-res {
+    width: 20px;
+    margin-right: 10px; 
+    margin-left: 20px;
+    margin-top: 20px; 
+}
+.icon-mail-res {
+    width: 20px;
+    margin-right: 10px; 
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.icon-facebook-res {
+    width: 20px;
+    margin-right: 10px; 
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.kaart {
+    margin-top: 20px;
+}
+.menu {
+    width: 200px; 
+    height: 200px; 
+    margin-left: 20px; 
+}
+.info {
+    margin-left: 20px; 
+}
+.icon-huwelijk {
+    width: 20px;
+    
+    margin-right:10px;
+}
+.icon-feest {
+    width: 20px;
+    
+    margin-right:10px;
+}
+.icon-event {
+    width: 20px;
+    
+    margin-right:10px;
+}
+.info-tekst {
+    margin-left: 20px; 
+}
+.margin {
+    margin-left: 20px; 
+}
+.opties {
+    color:#618e89;
+}
