@@ -52,14 +52,13 @@ p {
 }
 .taco-left {
     width: 100%;
-    margin-left: 20px;
     margin-top: 30px;
-    margin-bottom: 10px;
+
 }
 .taco-right {
     width: 100%;
     margin-top: 30px;
-    margin-bottom: 10px;
+
 }
 .form-control {
     font-family: 'Karla', sans-serif;
@@ -97,12 +96,10 @@ p {
     padding-left: 30px;
     padding-top: 20px;
     height: 50px;
-    background-color: #C24040;
-    color: white;
     font-size: 10px;
 }
 .navbar-nav {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Karla', sans-serif;
 }
 .film {
     margin: 20px;
@@ -151,6 +148,7 @@ p {
 }
 .kaart {
     margin-top: 20px;
+    margin-bottom: 0px; 
 }
 .menu {
     width: 200px;
@@ -187,12 +185,12 @@ p {
 .navbar-brand {
     opacity: 0;
     animation-name: bounceIn;
-    animation-duration: 700ms;
+    animation-duration: 450ms;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
 img {
-    animation-delay: 2s;
+    animation-delay: 0.5s;
 }
 span:nth-child(2) {
     animation-delay: 2.75s;
@@ -223,4 +221,7 @@ span:nth-child(4) {
         opacity: 1;
         transform: scale(1) translate3d(0, 0, 0);
     }
+}
+.navbar-inverse {
+    color: white;
 }
