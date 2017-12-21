@@ -35,6 +35,8 @@ p {
     margin-left: 20px;
     margin-top: 10px;
 }
+
+
 }
 .taco {
     margin: 0;
@@ -63,9 +65,8 @@ p {
     font-family: 'Karla', sans-serif;
     font-size: 12px;
     margin-left: 30px;
-    width: 350px; 
-    margin-bottom: 15px; 
-
+    width: 350px;
+    margin-bottom: 15px;
 }
 p {
     margin: 20px;
@@ -81,7 +82,7 @@ p {
 }
 .btn {
     background-color: #C24040;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 .hr {
     width: 40px;
@@ -89,7 +90,7 @@ p {
     margin-left: 20px;
     margin-right: auto;
     margin-bottom: 20px;
-    background-color: #e6ad2a;
+    background-color: black;
 }
 .footer {
     width: 100%;
@@ -100,8 +101,8 @@ p {
     color: white;
     font-size: 10px;
 }
-.navbar-brand {
-    font-family: 'Montserrat-bold', sans-serif;
+.navbar-nav {
+    font-family: 'Montserrat', sans-serif;
 }
 .film {
     margin: 20px;
@@ -110,41 +111,41 @@ p {
     padding-left: 20px;
 }
 .persoon {
-    width: 100%;
-    margin: 20px;  
-    padding-bottom: 10px; 
+    width: 200px;
+    margin: 20px;
+    padding-bottom: 10px;
     padding-right: 20px;
 }
 .icon-phone {
     width: 20px;
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 .icon-mail {
     width: 20px;
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 .icon-facebook {
     width: 20px;
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 .team {
-    color:#618e89;
+    color: #618e89;
 }
 .icon-phone-res {
     width: 20px;
-    margin-right: 10px; 
+    margin-right: 10px;
     margin-left: 20px;
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 .icon-mail-res {
     width: 20px;
-    margin-right: 10px; 
+    margin-right: 10px;
     margin-top: 20px;
     margin-left: 20px;
 }
 .icon-facebook-res {
     width: 20px;
-    margin-right: 10px; 
+    margin-right: 10px;
     margin-top: 20px;
     margin-left: 20px;
 }
@@ -152,34 +153,74 @@ p {
     margin-top: 20px;
 }
 .menu {
-    width: 200px; 
-    height: 200px; 
-    margin-left: 20px; 
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
 }
 .info {
-    margin-left: 20px; 
+    margin-left: 20px;
 }
 .icon-huwelijk {
     width: 20px;
-    
-    margin-right:10px;
+    margin-right: 10px;
 }
 .icon-feest {
     width: 20px;
-    
-    margin-right:10px;
+    margin-right: 10px;
 }
 .icon-event {
     width: 20px;
-    
-    margin-right:10px;
+    margin-right: 10px;
 }
 .info-tekst {
-    margin-left: 20px; 
+    margin-left: 20px;
 }
 .margin {
-    margin-left: 20px; 
+    margin-left: 20px;
 }
 .opties {
-    color:#618e89;
+    color: #618e89;
+}
+.logo-nav {
+    width: 100px;
+}
+.navbar-brand {
+    opacity: 0;
+    animation-name: bounceIn;
+    animation-duration: 700ms;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+img {
+    animation-delay: 2s;
+}
+span:nth-child(2) {
+    animation-delay: 2.75s;
+}
+span:nth-child(3) {
+    animation-delay: 3s;
+}
+span:nth-child(4) {
+    animation-delay: 3.15s;
+}
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3) translate3d(0, 0, 0);
+    }
+
+    50% {
+        opacity: 0.9;
+        transform: scale(1.1);
+    }
+
+    80% {
+        opacity: 1;
+        transform: scale(0.89);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1) translate3d(0, 0, 0);
+    }
 }
