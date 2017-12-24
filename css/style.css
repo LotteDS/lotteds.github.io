@@ -25,7 +25,7 @@ body {
 .btn {
     font-family: 'Karla', sans-serif;
     font-size: 15px;
-    margin-left: 20px;
+    
     margin-top: 10px;
     background-color: darkred;
     border: none;
@@ -34,9 +34,6 @@ body {
 p {
     margin-left: 20px;
     margin-top: 10px;
-}
-
-
 }
 .taco {
     margin: 0;
@@ -81,7 +78,7 @@ p {
 }
 .btn {
     background-color: #C24040;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 .hr {
     width: 40px;
@@ -224,4 +221,14 @@ span:nth-child(4) {
 }
 .navbar-inverse {
     color: white;
+}
+.link {
+    color: #444d8c; 
+}
+#mc_embed_signup_scroll {
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+.button {
+   margin-left: 0;
 }
