@@ -232,3 +232,35 @@ span:nth-child(4) {
 .button {
    margin-left: 0;
 }
+.sprite {
+    width: 32px;
+    height: 32px;
+    background-image: url('../images/sprites.png');
+    float: left;
+    display: block;
+     
+}
+.sprite-fb {
+    background-position-x: 0px;
+    margin-left: 40px;
+}
+.sprite-insta {
+    background-position-x: -64px;
+    margin-left: 10px;
+}
+.sprite-yt {
+    background-position-x: -128px;
+    margin-left: 10px;
+}
+.sprite-fb:hover {
+    background-position-y: -32px;
+}
+.sprite-insta:hover {
+    background-position-y: -32px;
+}
+.sprite-yt:hover {
+    background-position-y: -32px;
+}
+.margin-h1 {
+    margin-left: 20px; 
+}
